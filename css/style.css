@@ -14,9 +14,13 @@ a {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+
+  height: 3000px;
+  background-color: #332200;
 }
 
 img {
+  border-radius: 4px;
   display: block;
   max-width: 100%;
 }
@@ -80,6 +84,7 @@ ul {
 
 .introducao-bg {
   background: #000000;
+  box-shadow: inset 0 -7.5rem 0 #ffffff;
   color: #ffffff;
 }
 
@@ -96,7 +101,7 @@ ul {
 
 .introducao-texto {
   align-self: end;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 .introducao h1 {
@@ -116,6 +121,11 @@ ul {
   margin-bottom: 1.25rem;
 }
 
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .botao {
   background: linear-gradient(#ffbb00, #f2a50c);
   border-radius: 4px;
@@ -129,7 +139,7 @@ ul {
   text-transform: uppercase;
 }
 
-.botao:hover{
+.botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
 
