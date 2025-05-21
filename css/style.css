@@ -1,16 +1,28 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+}
+
 a {
-  color: #ffffff;
+  color: inherit;
   text-decoration: none;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 ul {
   list-style: none;
-  margin: 0px;
   padding: 0px;
 }
 
@@ -44,6 +56,7 @@ ul {
 }
 
 .header-menu a {
+  color: #ffffff;
   display: inline-block;
   font-size: 1.1rem;
   padding: 1rem 0px;
@@ -63,6 +76,61 @@ ul {
 
 .header-menu a:hover::after {
   width: 100%;
+}
+
+.introducao-bg {
+  background: #000000;
+  color: #ffffff;
+}
+
+.introducao {
+  box-sizing: border-box;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 76rem;
+  padding: 0px 1.4rem;
+}
+
+.introducao-texto {
+  align-self: end;
+  padding-bottom: 5rem;
+}
+
+.introducao h1 {
+  font-size: 4rem;
+  line-height: 1.125;
+  margin-bottom: 2rem;
+}
+
+.introducao h1 span {
+  color: #ffbb00;
+}
+
+.introducao p {
+  color: #b2b2b2;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.botao {
+  background: linear-gradient(#ffbb00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #332200;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.33;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.botao:hover{
+  background: linear-gradient(#ffb60d, #e59317);
 }
 
 @media (max-width: 800px) {
