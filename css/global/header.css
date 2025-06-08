@@ -1,6 +1,4 @@
-.header-bg {
-  background-color: #000000;
-}
+@import "../utils/cores.css";
 
 .header {
   align-items: center;
@@ -24,17 +22,13 @@
 }
 
 .header-menu a {
-  color: #ffffff;
   display: inline-block;
-  font-family: "Poppins";
-  font-size: 1.1rem;
-  font-weight: 400;
   padding: 1rem 0px;
   position: relative;
 }
 
 .header-menu a::after {
-  background: #ffffff;
+  background: var(--cor-0);
   content: "";
   display: block;
   height: 2px;
@@ -58,24 +52,17 @@
   }
 
   .header-menu a {
-    background: #111111;
+    background: var(--cor-11);
     border-radius: 4px;
-    font-size: 1rem;
     padding: 2vh 4vw;
   }
 
   .header-menu a:hover {
-    background: #2e2e2e;
+    background: var(--cor-10);
     text-decoration: underline;
   }
 
   .header-menu a::after {
     display: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .header-menu a {
-    font-size: 14px;
   }
 }

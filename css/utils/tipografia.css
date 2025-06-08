@@ -1,0 +1,51 @@
+.texto-grande {
+  font-family: "Poppins";
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.texto-normal {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 1.5;
+}
+
+.texto-destaque {
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .texto-grande {
+    font-size: 3rem;
+  }
+
+  .texto-normal {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .texto-grande {
+    font-size: 2rem;
+  }
+
+  .texto-normal {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .texto-destaque {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    .texto-destaque {
+      font-size: 14px;
+    }
+  }
+}

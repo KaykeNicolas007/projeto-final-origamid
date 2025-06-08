@@ -1,7 +1,8 @@
+@import "../utils/cores.css";
+
 .introducao-bg {
-  background: #000000;
-  box-shadow: inset 0 -7.5rem 0 #ffffff;
-  color: #ffffff;
+  background: var(--cor-12);
+  box-shadow: inset 0 -7.5rem 0 var(--cor-0);
 }
 
 .introducao {
@@ -17,27 +18,14 @@
 
 .introducao-texto {
   align-self: end;
-  font-family: "Roboto";
-  font-weight: 400;
   padding-bottom: 10rem;
 }
 
 .introducao h1 {
-  font-family: "Poppins";
-  font-size: 4rem;
-  font-weight: 600;
-  line-height: 1.125;
   margin-bottom: 2rem;
 }
 
-.introducao h1 span {
-  color: #ffbb00;
-}
-
 .introducao p {
-  color: #b2b2b2;
-  font-size: 1.75rem;
-  line-height: 1.5;
   margin-bottom: 1.25rem;
 }
 
@@ -48,22 +36,7 @@
 
 @media (max-width: 1200px) {
   .introducao h1 {
-    font-size: 3rem;
     margin-bottom: 1.5vw;
-  }
-
-  .introducao p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .introducao h1 {
-    font-size: 2rem;
-  }
-
-  .introducao p {
-    font-size: 1.25rem;
   }
 }
 
@@ -75,8 +48,8 @@
   }
 
   .introducao-bg {
-    background: #111111;
-    box-shadow: inset 0 -10vw 0 #ffffff;
+    background: var(--cor-11);
+    box-shadow: inset 0 -10vw 0 var(--cor-0);
   }
 
   .introducao-texto {
