@@ -62,7 +62,9 @@ ul {
 .header-menu a {
   color: #ffffff;
   display: inline-block;
+  font-family: "Poppins";
   font-size: 1.1rem;
+  font-weight: 400;
   padding: 1rem 0px;
   position: relative;
 }
@@ -101,11 +103,15 @@ ul {
 
 .introducao-texto {
   align-self: end;
+  font-family: "Roboto";
+  font-weight: 400;
   padding-bottom: 10rem;
 }
 
 .introducao h1 {
+  font-family: "Poppins";
   font-size: 4rem;
+  font-weight: 600;
   line-height: 1.125;
   margin-bottom: 2rem;
 }
@@ -133,7 +139,8 @@ ul {
   color: #332200;
   display: inline-block;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-family: "Poppins";
+  font-weight: 600;
   line-height: 1.33;
   padding: 1rem 2rem;
   text-transform: uppercase;
