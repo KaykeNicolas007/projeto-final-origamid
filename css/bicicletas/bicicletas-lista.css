@@ -1,0 +1,49 @@
+.lista-bg {
+  background: var(--cor-0);
+  padding: 7.5rem 0;
+}
+
+.lista-bg h2 {
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 76rem;
+  padding: 0 1.4rem;
+}
+
+.lista {
+  display: flex;
+  gap: 4vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 76rem;
+  padding: 0px 1.4rem;
+}
+
+.lista a {
+  display: block;
+}
+
+.lista h3 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0.4rem;
+}
+
+.lista h3::before {
+  background: var(--cor-p1);
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+}
+
+.lista img {
+  margin-bottom: 1rem;
+}
+
+.lista li span {
+  padding-left: 20px;
+}

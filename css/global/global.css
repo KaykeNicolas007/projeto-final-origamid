@@ -14,15 +14,15 @@ a {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
-  height: 3000px;
-  background-color: #332200;
 }
 
 img {
-  border-radius: 4px;
   display: block;
   max-width: 100%;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
 
 ul {

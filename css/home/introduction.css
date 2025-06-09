@@ -1,5 +1,3 @@
-@import "../utils/cores.css";
-
 .introducao-bg {
   background: var(--cor-12);
   box-shadow: inset 0 -7.5rem 0 var(--cor-0);
