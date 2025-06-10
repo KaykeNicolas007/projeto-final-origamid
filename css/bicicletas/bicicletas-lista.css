@@ -1,6 +1,6 @@
 .lista-bg {
   background: var(--cor-0);
-  padding: 7.5rem 0;
+  padding: 1rem 0;
 }
 
 .lista-bg h2 {
@@ -14,11 +14,12 @@
 
 .lista {
   display: flex;
-  gap: 4vw;
+  gap: 2.4vw;
   margin-left: auto;
   margin-right: auto;
   max-width: 76rem;
-  padding: 0px 1.4rem;
+  overflow-x: auto;
+  padding: 0px 1.4rem 1.4rem 1.4rem;
 }
 
 .lista a {
@@ -37,13 +38,28 @@
   content: "";
   display: inline-block;
   height: 8px;
+  transition: width 0.2s;
   width: 12px;
+}
+
+.lista a:hover h3::before {
+  width: 24px;
 }
 
 .lista img {
   margin-bottom: 1rem;
 }
 
+.lista li {
+  min-width: 280px;
+}
+
 .lista li span {
   padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .lista-bg {
+    padding: 2.4rem 0;
+  }
 }
