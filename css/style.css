@@ -5,10 +5,12 @@
 /* Utils */
 @import "utils/components.css";
 @import "utils/cores.css";
+@import "utils/espacamentos.css";
 @import "utils/tipografia.css";
 
 /* Home */
 @import "home/introduction.css";
+@import "home/tecnologia.css";
 
 /* Bicicletas */
 @import "bicicletas/bicicletas-lista.css";

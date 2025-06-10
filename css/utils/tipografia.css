@@ -1,3 +1,11 @@
+.bold{
+  font-weight: bold;
+}
+
+.capslock {
+  text-transform: uppercase;
+}
+
 .font-1-xxl {
   /* 
   font-family: "Poppins";
@@ -13,7 +21,7 @@
 }
 
 .font-1-m {
-  font: 400 1.1rem "Poppins", sans-serif;
+  font: 400 1.1rem/1.35 "Poppins", sans-serif;
 }
 
 .font-2-l {

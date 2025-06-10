@@ -1,0 +1,25 @@
+.tecnologia-bg {
+  padding: 0px 1.4rem;
+}
+
+.tecnologia {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4rem;
+}
+
+.tecnologia-avancada {
+  display: inline-block;
+  margin-bottom: 1.125rem;
+}
+
+.modelo::after {
+  background: var(--cor-0);
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 4px;
+  position: absolute;
+  width: 0px;
+}
