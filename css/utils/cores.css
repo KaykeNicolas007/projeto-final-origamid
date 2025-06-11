@@ -13,6 +13,10 @@
   background-color: var(--cor-12);
 }
 
+.bg-11 {
+  background-color: var(--cor-11);
+}
+
 .bg-0 {
   background-color: var(--cor-0);
 }
