@@ -38,14 +38,16 @@ li:nth-child(5) {
   margin: auto;
 }
 
+@media (max-width: 900px) {
+  .parceiros-bg {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+
 @media (max-width: 800px) {
   .parceiros-img {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .parceiros-bg {
-    padding-bottom: 60px;
-    padding-top: 30px;
   }
 
   .parceiros h2 {
@@ -65,9 +67,8 @@ li:nth-child(5) {
   }
 }
 
-@media (max-width: 400px)
-{
-  .parceiros-img li{
+@media (max-width: 400px) {
+  .parceiros-img li {
     padding: 20px;
   }
 }
