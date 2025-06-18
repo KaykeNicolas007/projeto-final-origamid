@@ -51,6 +51,11 @@
   padding: 60px 1.4rem;
 }
 
+.titulo > span {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
 @media (max-width: 800px) {
   .titulo {
     padding: 40px 1.4rem;
