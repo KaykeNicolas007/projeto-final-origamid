@@ -1,20 +1,18 @@
-.titulo-bg {
-  background: var(--cor-12);
+.termos {
+  padding: 120px 1.4rem;
 }
 
-.titulo {
-  padding: 60px 1.4rem;
+.termos h2 {
+  margin-bottom: 20px;
 }
 
-.termos{
-	padding: 120px 1.4rem;
+.termos p {
+  margin-bottom: 48px;
+  max-width: 74ch;
 }
 
-.termos h2{
-	margin-bottom: 20px;
-}
-
-.termos p{
-	margin-bottom: 48px;
-	max-width: 74ch;
+@media (max-width: 800px) {
+  .termos {
+    padding: 40px 1.4rem;
+  }
 }
