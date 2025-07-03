@@ -1,0 +1,54 @@
+.seguro-vantagens-bg {
+  background: var(--cor-12);
+}
+
+.seguro-vantagens {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 120px 1.4rem;
+}
+
+.seguro-vantagens h2 {
+  grid-column: 1/-1;
+  margin-bottom: 52px;
+}
+
+.seguro-vantagens-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.seguro-vantagens-item img {
+  max-width: 25px;
+}
+
+.seguro-vantagens-item p {
+  max-width: 36ch;
+}
+
+@media (max-width: 1000px) {
+  .seguro-vantagens {
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 1.4rem 120px 1.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .seguro-vantagens {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 60px 1.4rem;
+    text-align: center;
+  }
+
+  .seguro-vantagens h2 {
+    margin-bottom: 20px;
+  }
+
+  .seguro-vantagens-item {
+    display: grid;
+    justify-items: center;
+  }
+}
