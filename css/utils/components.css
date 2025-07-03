@@ -23,6 +23,24 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+.botao-cinza {
+  background: linear-gradient(var(--cor-10), #242424);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--cor-4);
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.33;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.botao-cinza:hover {
+  background: linear-gradient(var(--cor-10), #1d1d1d);
+}
+
 .link {
   color: var(--cor-p1);
   display: inline-block;
@@ -54,6 +72,13 @@
 .titulo > span {
   display: inline-block;
   margin-bottom: 12px;
+}
+
+@media(max-width: 1000px){
+  .botao, .botao-cinza{
+    font-size: 1rem;
+    padding: 0.8rem 1.8rem;
+  }
 }
 
 @media (max-width: 800px) {

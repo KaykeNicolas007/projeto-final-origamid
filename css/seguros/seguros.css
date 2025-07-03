@@ -1,0 +1,84 @@
+.seguros-bg {
+  background: var(--cor-11);
+}
+
+.seguros {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 60px 1.4rem 120px 1.4rem;
+}
+
+.seguros-item {
+  background: var(--cor-12);
+  border-radius: 8px;
+  margin: auto;
+  padding: 2rem 20vw 2rem 4rem;
+  position: relative;
+}
+
+.seguros-item-detalhe span {
+  display: block;
+}
+
+.seguros-item-detalhe {
+  display: grid;
+  justify-items: end;
+  position: absolute;
+
+  /* Posicionamento */
+  right: 32px;
+}
+
+.seguros-item h2 {
+  margin-bottom: 40px;
+}
+
+.seguros-item-vantagens {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.seguros-item-vantagens li {
+  position: relative;
+}
+
+.seguros-item-vantagens li::before {
+  background-image: url(../../img/icones/lista.svg);
+  content: "";
+  display: block;
+  height: 9px;
+  position: absolute;
+  width: 13px;
+
+  /* Posicionamento */
+  top: 7px;
+  left: -20px;
+}
+
+@media (max-width: 1000px) {
+  .seguros {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .seguros-item {
+    display: grid;
+    justify-items: center;
+    padding: 2rem 3rem;
+  }
+
+  .seguros-item h2{
+    margin-bottom: 2rem;
+  }
+
+  .seguros-item-detalhe {
+    justify-items: center;
+    margin-bottom: 8px;
+    place-self: center;
+    position: static;
+  }
+}
