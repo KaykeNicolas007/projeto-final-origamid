@@ -80,8 +80,13 @@
 }
 
 @media (max-width: 800px) {
-  .font-1-m {
+  .font-1-m,
+  .font-1-m-b {
     font-size: 1rem;
+  }
+
+  .font-1-s {
+    font-size: 0.8rem;
   }
 }
 
