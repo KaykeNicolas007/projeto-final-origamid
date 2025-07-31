@@ -7,8 +7,7 @@
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding: 60px 24px;
 }
 
 .bicicleta-imagens {
@@ -67,6 +66,11 @@
   padding: 12px 6px;
 }
 
+.bicicleta-info-item img {
+  max-width: 24px;
+  margin-bottom: 6px;
+}
+
 .bicicleta-ficha {
   background-color: var(--cor-12);
   border-radius: 4px;
@@ -84,6 +88,6 @@
   padding: 6px 0px;
 }
 
-.bicicleta-ficha-item:last-child{
+.bicicleta-ficha-item:last-child {
   border: none;
 }
