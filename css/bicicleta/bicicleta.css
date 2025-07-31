@@ -91,3 +91,23 @@
 .bicicleta-ficha-item:last-child {
   border: none;
 }
+
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding: 30px 24px;
+  }
+
+  .bicicleta-imagens {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .bicicleta-info {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta-comprar {
+    grid-template-columns: 1fr;
+  }
+}
