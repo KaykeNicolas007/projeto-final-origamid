@@ -5,6 +5,7 @@
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
+  padding-bottom: 120px;
 }
 
 .contato-dados,
@@ -92,7 +93,7 @@
     border-radius: 0 0 5px 5px;
   }
 
-  .contato-redes{
+  .contato-redes {
     gap: 12px;
   }
 }
